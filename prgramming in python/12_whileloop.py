@@ -28,3 +28,11 @@
 #         pass #empty statement
 #     print(a)
 
+# else in loops 
+l2=[10,20,30,40]
+for item in l2:
+    if item>40:
+        break
+    print(item)
+else:
+    print("Else block")
