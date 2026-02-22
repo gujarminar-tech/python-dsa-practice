@@ -16,3 +16,6 @@ print("GATE"=="gATE")#False
 print("GATE"!="GATE")#False
 print("GATE"<"gate")#True
 print("Gate"<"gATE")#True
+print("GATE"<="gate") #True
+print("x">"azbc") #True
+print("x">"xy") #False
