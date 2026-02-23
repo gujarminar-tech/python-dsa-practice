@@ -35,3 +35,10 @@ str3=("Hello \nWorld")
 print(str3)
 print("Hello World!\b?") #Hello World?
 
+
+#important to remember
+print("\141") #change octal to decimal then decimal to str 
+# eg. 141 => 97 => "a"
+print("\141ab") #aab
+print("\x61") #change hex to decimal then decimal to str
+
