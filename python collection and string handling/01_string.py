@@ -19,3 +19,10 @@ print("Gate"<"gATE")#True
 print("GATE"<="gate") #True
 print("x">"azbc") #True
 print("x">"xy") #False
+
+#membership operator
+str1="python"
+print(".")
+print("py" in str1) #True
+print("yto" in str1) #False
+
