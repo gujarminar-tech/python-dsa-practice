@@ -26,3 +26,12 @@ print(".")
 print("py" in str1) #True
 print("yto" in str1) #False
 
+#Escape sequence characters
+str2="Today's match is \"India vs England \""
+print(str2)
+str3='Today\'s match is "India vs Austrilia"'
+print(str3)
+str3=("Hello \nWorld")
+print(str3)
+print("Hello World!\b?") #Hello World?
+
