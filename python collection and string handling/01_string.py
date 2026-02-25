@@ -22,7 +22,6 @@ print("x">"xy") #False
 
 #membership operator
 str1="python"
-print(".")
 print("py" in str1) #True
 print("yto" in str1) #False
 
@@ -42,3 +41,17 @@ print("\141") #change octal to decimal then decimal to str
 print("\141ab") #aab
 print("\x61") #change hex to decimal then decimal to str
 
+#string formation
+#%formation
+subject ="Python"
+print("Class is %s"%subject)
+name="Minar"
+age=21
+print("My name is %s and my age is %d"%(name,age))
+#.format() method
+print("my name is {} and i am {}years old".format(name,age))
+print("i am {1}years old and my name is {0}".format(name,age))
+print("i am {n}years old and my name is {m}".format(m=name,n=age))
+#f-string method
+print(f"my name is {name} and i am {age}")
+print(f"next year i will be {age+1}")
