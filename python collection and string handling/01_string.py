@@ -64,3 +64,16 @@ print(str1[:5]) #bydefault start=0 #Hello
 print(str1[:]) # =>print(str1)=>Hello World
 print(str1[-10:-5]) #=>print(str[1:6])=>(ello )
 print(str1[::-1]) #here bydefault start=-1,end=0
+
+#star questions for slicing
+str2="GATE2027"
+print(str2[::-1][2:5])#str[A][B]=>[A]or[B],02E
+s="ABCDE"
+print(s[:2]+s[3:])#ABDE#concatination
+s1="mississipss"
+n=len(s1)
+count=0
+for i in range(n):
+    if(s1[i:i+2]=="ss"):
+        count+=1
+print(count)
