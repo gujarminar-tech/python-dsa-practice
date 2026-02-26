@@ -55,3 +55,12 @@ print("i am {n}years old and my name is {m}".format(m=name,n=age))
 #f-string method
 print(f"my name is {name} and i am {age}")
 print(f"next year i will be {age+1}")
+
+#slicing
+str1="Hello World"
+print(str1[2:5]) #llo
+print(str1[2:]) #bydefault end=-1 #llo World
+print(str1[:5]) #bydefault start=0 #Hello
+print(str1[:]) # =>print(str1)=>Hello World
+print(str1[-10:-5]) #=>print(str[1:6])=>(ello )
+print(str1[::-1]) #here bydefault start=-1,end=0
