@@ -28,3 +28,9 @@ print(str5.split(",",maxsplit=2))#split bydefault start from right
 #rsplit() 
 # it only difer from the split when maxsplit applied
 print(str5.rsplit(",",maxsplit=3))
+
+
+#join() method
+l="12345"
+print(" ".join(l))
+print("_".join("GATE"))
