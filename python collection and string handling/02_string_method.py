@@ -14,3 +14,17 @@ print(str2.lstrip("."))
 
 #rstrip() rightstrip
 print(str2.rstrip("."))
+
+#split() method
+str4="I am preparing for GATE 2027"
+print(str4.split()) #by default parameter is " " 
+# by default it print string into list after split
+
+print(str4.split(maxsplit=3)) #first 3 split from left
+str5="1,2,3,4,5"
+print(str5.split(",")) #['1', '2', '3', '4', '5']
+print(str5.split(",",maxsplit=2))#split bydefault start from right
+
+#rsplit() 
+# it only difer from the split when maxsplit applied
+print(str5.rsplit(",",maxsplit=3))
