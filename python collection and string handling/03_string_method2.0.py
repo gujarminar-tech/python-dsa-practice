@@ -31,3 +31,10 @@ print(str4.isalpha())#False
 print(str4.isnumeric())#False
 print(str2.isalnum())#True
 print(str3.isalnum())#True
+
+#count
+str1="My name is Minar"
+print(str1.count("M"))
+print(str1.count("m"))
+print(str1.count(""))
+print(len(str1)==str1.count("")-1)
