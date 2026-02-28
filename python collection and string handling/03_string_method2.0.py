@@ -17,3 +17,17 @@ print(str4.capitalize()) #Heyy
 print(str3.title())#Hello World
 str5="hey it's  minar   gujar"
 print(str5.title()) #Hey It's Minar Gujar
+
+#isalpha(),isnumeric(),isalnum()
+str1="hello world"
+print(str1.isalpha())# False because " " is not alphabet
+str2="Hello"
+print(str2.isalpha())#True
+str3="10"
+print(str3.isnumeric())#True
+str4="GATE2027"
+print(str4.isalnum())#True
+print(str4.isalpha())#False
+print(str4.isnumeric())#False
+print(str2.isalnum())#True
+print(str3.isalnum())#True
