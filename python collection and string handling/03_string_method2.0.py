@@ -12,3 +12,8 @@ print(str3.capitalize())#Hello world
 str4="hEyy"
 print(str4.capitalize()) #Heyy 
 # capitalize converts 1st element into upper and rest all into lower
+
+#title()
+print(str3.title())#Hello World
+str5="hey it's  minar   gujar"
+print(str5.title()) #Hey It's Minar Gujar
