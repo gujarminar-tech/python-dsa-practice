@@ -1,8 +1,7 @@
-#replace method
-str1="I like python"
-print(str1.replace("I","They"))
-str2="Hello hello"
-print(str2.replace("Hello","Hi"))
-str3="hello hello hello"
-print(str3.replace("hello","hi"))
-print(str3.replace("hello","hi",2))# bydefault from left to right
+str1="Abc"
+print(str1.lower())#"abc"
+print(str1.upper())#"ABC"
+print(str1.isupper())#False
+print(str1.islower()) #False
+print(str1.swapcase()) #aBC
+
