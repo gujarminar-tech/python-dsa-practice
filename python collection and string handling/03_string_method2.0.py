@@ -5,3 +5,10 @@ print(str1.isupper())#False
 print(str1.islower()) #False
 print(str1.swapcase()) #aBC
 
+str2="abc"
+print(str2.capitalize())#Abc
+str3="hello world"
+print(str3.capitalize())#Hello world
+str4="hEyy"
+print(str4.capitalize()) #Heyy 
+# capitalize converts 1st element into upper and rest all into lower
