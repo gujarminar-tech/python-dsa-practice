@@ -48,3 +48,13 @@ print(str2.find("na")) #2 bacause find bydefault start from left
 
 #rfind
 print(str2.rfind("na")) #4 start from right but index count from left 
+
+
+#index() method
+str1="hello world"
+print(str1.index("world"))
+#print(str1.index("xy")) value error
+#rindex
+str2="abcabde"
+print(str2.index("ab"))#0
+print(str2.rindex("ab"))#3
