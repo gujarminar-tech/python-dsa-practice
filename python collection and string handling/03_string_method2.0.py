@@ -38,3 +38,13 @@ print(str1.count("M"))
 print(str1.count("m"))
 print(str1.count(""))
 print(len(str1)==str1.count("")-1)
+
+#find() method
+str1="Hello World"
+print(str1.find("ll")) #2
+print(str1.find("xy")) #-1
+str2="Banana"
+print(str2.find("na")) #2 bacause find bydefault start from left
+
+#rfind
+print(str2.rfind("na")) #4 start from right but index count from left 
