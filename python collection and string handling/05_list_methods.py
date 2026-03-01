@@ -8,4 +8,10 @@ print(lst1)
 lst1.insert(2,[5,6])
 print(lst1)
 
-
+#extend() methiod 
+#it append each element of iterable obj. at end
+lst2=[1,2,3]
+lst2.extend("Hey")
+print(lst2)#[1, 2, 3, 'H', 'e', 'y']
+lst2.extend([4,5,6])
+print(lst2)#[1, 2, 3, 'H', 'e', 'y', 4, 5, 6]
