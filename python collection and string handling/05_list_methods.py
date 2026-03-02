@@ -27,3 +27,19 @@ count=int(input("Enter number of values: "))
 for i in range(count):
     lst2.append(int(input("enter value: ")))
 print(lst2)
+
+
+#modify list
+l1=["Rohit","Virat","Dhoni","Sachin","Pandya","Surya"]
+l1[0]="Kishan" #it update 0th index data with given data
+print(l1)
+
+l1[2:4]="Raina" 
+#It is iterable object 
+#It consider each value of given data as saperate value 
+print(l1)
+
+l2=["Rohit","Virat","Dhoni","Sachin","Pandya","Surya"]
+l2[2:4]=["Raina"]
+print(l2)
+
