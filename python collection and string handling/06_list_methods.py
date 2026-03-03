@@ -21,3 +21,12 @@ del(l2)
 l1=[10,20,30,40]
 l1.clear()
 print(l1)
+
+#pop() method
+l1=[10,20,30,40]
+a=l1.pop(1) #pop delete value of that index and return value
+print(l1)
+b=l1.pop() # by default it delete  last value 
+#pop()=pop(-1)
+print(b)
+print(l1)
