@@ -14,4 +14,10 @@ print(l2)
 del l2[:] #delete all values from list but list exists
 print(l2)
 del(l2)
-print(l2)#error
+#print(l2)#error
+
+
+#clear() method
+l1=[10,20,30,40]
+l1.clear()
+print(l1)
