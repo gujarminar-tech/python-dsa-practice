@@ -30,3 +30,6 @@ b=l1.pop() # by default it delete  last value
 #pop()=pop(-1)
 print(b)
 print(l1)
+l1.pop(0)
+print(l1)
+
