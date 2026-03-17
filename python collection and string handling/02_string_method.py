@@ -23,7 +23,7 @@ print(str4.split()) #by default parameter is " "
 print(str4.split(maxsplit=3)) #first 3 split from left
 str5="1,2,3,4,5"
 print(str5.split(",")) #['1', '2', '3', '4', '5']
-print(str5.split(",",maxsplit=2))#split bydefault start from right
+print(str5.split(",",maxsplit=2))#split bydefault start from left
 
 #rsplit() 
 # it only difer from the split when maxsplit applied

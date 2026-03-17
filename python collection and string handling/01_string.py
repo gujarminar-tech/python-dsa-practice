@@ -63,6 +63,7 @@ print(str1[2:]) #bydefault end=-1 #llo World
 print(str1[:5]) #bydefault start=0 #Hello
 print(str1[:]) # =>print(str1)=>Hello World
 print(str1[-10:-5]) #=>print(str[1:6])=>(ello )
+# print(str1[4:1]) output '' because start<end
 print(str1[::-1]) #here bydefault start=-1,end=0
 
 #star questions for slicing

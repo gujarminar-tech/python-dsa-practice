@@ -11,8 +11,8 @@ y=10
 # print (2 and 5 and 7) #7
 # print(3 and 0 and 5) #0
 # print(7 or 0 or 3) #7
-# print(3 or 0 and 4) #3
-# print(4 and 5 or 3) #5
+# print(3 or 0 and 4) #3 in "or" and "and" case and has high precedence
+# print(4 and 5 or 3) #5 
 
 #bitwise operator
 # print(14 & 21) #4
@@ -37,4 +37,4 @@ L3=L1
 # print(L2 is L3) #False
  
 #operator precedence
-print(2**3**2)
+print(2**3**2) # right to left assosiativity

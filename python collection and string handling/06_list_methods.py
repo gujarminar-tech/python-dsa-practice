@@ -33,3 +33,13 @@ print(l1)
 l1.pop(0)
 print(l1)
 
+lst1=[10,20,30]
+a,b,c=lst1
+print(a)
+print(b) 
+print(c)
+
+a,*b,c=[10,20,30,40,50]
+print(a)
+print(b)
+print(c)
