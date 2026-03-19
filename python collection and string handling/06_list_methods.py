@@ -43,3 +43,24 @@ a,*b,c=[10,20,30,40,50]
 print(a)
 print(b)
 print(c)
+
+
+#list comprehension
+# list comprehention tells that ,without using 
+lst1=[]
+for i in range(1,1001):
+    lst1.append(i)
+#use 
+lst1=[i for i in range(1,1001)]
+#print(lst1) #[1,2,3,....,1000]
+lst2=[i*2 for i in range(1,11)]
+print(lst2)
+l1=[i+5 for i in range(1,6)]
+print(l1)
+l1=[i for i in range(1,11) if i%2==0]
+print(l1) #[2,4,6,8,10]
+l2=[i+5 if i%2==0 else i+10 for i in range(1,5)]
+print(l2) #[11, 7, 13, 9]
+l3=[(i,j) for i in range(1,3) for j in range(1,3)] 
+#works like nested loop
+print(l3)
