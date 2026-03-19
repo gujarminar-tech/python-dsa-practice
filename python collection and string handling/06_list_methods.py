@@ -78,3 +78,11 @@ print(a)
 b=sorted(l2,reverse=True)
 print(b)
 
+
+#reverse() & reversed() method
+l3=[4,5,3,2,6,8,20]
+l3.reverse()
+print(l3)
+l4=[4,35,6,2,67,33]
+a=reversed(l4)
+print(list(a))
