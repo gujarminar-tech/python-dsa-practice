@@ -64,3 +64,17 @@ print(l2) #[11, 7, 13, 9]
 l3=[(i,j) for i in range(1,3) for j in range(1,3)] 
 #works like nested loop
 print(l3)
+
+
+#sort() & sorted() method
+l1=[9,2,3,8,4,6,0,11]
+l1.sort() #inplace changes
+print(l1)
+l1.sort(reverse=True)
+print(l1)
+l2=[3,4,15,7,3,2,9,0]
+a=sorted(l2) #create a copy and store into diff variable
+print(a)
+b=sorted(l2,reverse=True)
+print(b)
+
