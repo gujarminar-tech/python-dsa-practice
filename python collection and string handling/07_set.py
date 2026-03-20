@@ -38,3 +38,8 @@ print(s2)
 s2.discard(5) #can't give error even if element is not in set
 
 
+#pop() method
+s1={1,2,3}
+s1.pop() 
+#delete random value from set because set is unordered
+print(s1)
