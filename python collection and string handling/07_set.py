@@ -22,3 +22,11 @@ print(set2)
 
 set2.update("Gate")
 print(set2)
+
+
+#remove method
+s1={1,3,2}
+s1.remove(3)
+print(s1)
+#s1.remove(5) #error
+
