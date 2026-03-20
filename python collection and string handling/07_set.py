@@ -76,3 +76,11 @@ a={1,2,3}
 b={2,3,4}
 c=a.difference(b) #a-b
 print(c) #{1}
+
+
+#difference_update() method
+a={1,2,3}
+b={2,3,4}
+a.difference_update(b) #a=a-b
+print(a) #{1}
+
