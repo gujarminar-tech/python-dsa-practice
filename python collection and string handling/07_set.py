@@ -42,4 +42,11 @@ s2.discard(5) #can't give error even if element is not in set
 s1={1,2,3}
 s1.pop() 
 #delete random value from set because set is unordered
-print(s1)
+
+
+#copy method
+a={1,2,4}
+b=a.copy()
+b.add(3)
+print(b)
+print(a)
