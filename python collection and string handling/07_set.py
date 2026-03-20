@@ -9,3 +9,8 @@ s1={1,0,True,False,0,0.0}
 #initialize empty set
 set1=set() 
 print(type(set1))
+
+#add() method 
+set1={3,9,2,4,7}
+set1.add(1)
+print(set1)
