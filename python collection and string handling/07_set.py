@@ -14,3 +14,11 @@ print(type(set1))
 set1={3,9,2,4,7}
 set1.add(1)
 print(set1)
+
+#update() method
+set2={4,3,2}
+set2.update({0,5,6})
+print(set2)
+
+set2.update("Gate")
+print(set2)
