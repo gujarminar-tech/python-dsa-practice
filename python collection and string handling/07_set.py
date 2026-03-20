@@ -58,3 +58,9 @@ c=a.union(b) #c={1,2,3,4,5}
 print(c)
 #len(c)<=len(a)+len(b)
 
+
+#intersection() method
+c=a.intersection(b) #c=a&b
+print(c) #{4}
+
+
