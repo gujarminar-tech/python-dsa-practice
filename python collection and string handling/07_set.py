@@ -30,3 +30,11 @@ s1.remove(3)
 print(s1)
 #s1.remove(5) #error
 
+
+#discard() method
+s2={3,4,2}
+s2.discard(3)
+print(s2)
+s2.discard(5) #can't give error even if element is not in set
+
+
