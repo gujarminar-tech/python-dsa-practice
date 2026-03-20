@@ -50,3 +50,11 @@ b=a.copy()
 b.add(3)
 print(b)
 print(a)
+
+#union() method
+a={1,2,4}
+b={3,5,4}
+c=a.union(b) #c={1,2,3,4,5}
+print(c)
+#len(c)<=len(a)+len(b)
+
