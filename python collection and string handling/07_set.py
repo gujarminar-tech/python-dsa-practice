@@ -64,3 +64,9 @@ c=a.intersection(b) #c=a&b
 print(c) #{4}
 
 
+#intersection_update() method
+a={1,2,3}
+b={2,3,4}
+a.intersection_update(b) 
+# update a by removing uncommon elements between a and b
+print(a)
