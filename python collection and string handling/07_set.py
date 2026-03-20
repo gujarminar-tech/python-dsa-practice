@@ -70,3 +70,9 @@ b={2,3,4}
 a.intersection_update(b) 
 # update a by removing uncommon elements between a and b
 print(a)
+
+#difference() method
+a={1,2,3}
+b={2,3,4}
+c=a.difference(b) #a-b
+print(c) #{1}
