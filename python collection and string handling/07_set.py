@@ -89,3 +89,9 @@ a={1,2,3}
 b={2,3,4}
 c=a.symmetric_difference(b) #a-b U b-a
 print(c) #{1,4}
+
+#isdisjoint()
+a={1,3,2}
+b={4,5,6}
+print(a.isdisjoint(b)) #if a&b ={} null set
+#True
