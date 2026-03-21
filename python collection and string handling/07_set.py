@@ -103,3 +103,12 @@ c={1,2,3}
 print(a.issubset(b))#True
 print(b.issubset(a))#False
 print(a.issubset(c)) #True
+
+#issuperset() method
+a={1,2,3}
+b={1,2,3,4,5}
+c={1,2,3}
+print(a.issuperset(b)) #False
+print(b.issuperset(a)) #True
+print(c.issuperset(a)) #True
+print(a.issuperset(c)) #True
