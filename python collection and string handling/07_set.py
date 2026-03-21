@@ -95,3 +95,11 @@ a={1,3,2}
 b={4,5,6}
 print(a.isdisjoint(b)) #if a&b ={} null set
 #True
+
+#issubset() method
+a={1,2,3}
+b={1,2,3,4,5}
+c={1,2,3}
+print(a.issubset(b))#True
+print(b.issubset(a))#False
+print(a.issubset(c)) #True
