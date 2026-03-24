@@ -13,3 +13,7 @@ d1={"a":1,"b":[3,4,2],(3,4):{3,4,5}}
 print(d1["b"])
 print(d1["b"][0])
 print(d1[(3,4)])
+
+#key should not be duplicate
+d1={1:"A",0:"x",1.0:"ab",True:"Y",False:"G","1":"r","0":"F"}
+print(d1) #{1: 'Y', 0: 'G', '1': 'r', '0': 'F'
