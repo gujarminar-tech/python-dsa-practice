@@ -75,3 +75,16 @@ d2.update(d3)
 #method3
 d2["c"]=50
 print(d2)
+
+#deletion in dictionary
+d1={"a":"GATE","b":2,"c":7}
+del d1["b"] 
+print(d1)
+d1.clear() #del all elements from dict
+print(d1) #{}
+del d1 #delete th edictionary
+# print(d1) #NameError 
+d2={"a":2,"b":3,"c":6}
+a=d2.pop("b") 
+print(a) #return value at "b"
+print(d2)
