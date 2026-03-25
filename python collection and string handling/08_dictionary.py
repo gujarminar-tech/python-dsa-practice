@@ -31,3 +31,11 @@ print(d1) #{'a': 4, 'b': 2, 'c': 3}
 print(d2) #{'a': 4, 'b': 2, 'c': 3} change with d1
 print(d3) #{'a': 1, 'b': 2, 'c': 3} create copy
 print(d4) #{'a': 1, 'b': 2, 'c': 3}
+
+students=["Minar","Nimish","Vivek","Om","Adi"]
+d1=dict.fromkeys(students)
+print(d1)
+#{'Minar': None, 'Nimish': None, 'Vivek': None, 'Om': None, 'Adi': None}
+d2=dict.fromkeys(students,0)
+print(d2)
+#{'Minar': 0, 'Nimish': 0, 'Vivek': 0, 'Om': 0, 'Adi': 0}  
