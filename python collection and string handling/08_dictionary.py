@@ -39,3 +39,18 @@ print(d1)
 d2=dict.fromkeys(students,0)
 print(d2)
 #{'Minar': 0, 'Nimish': 0, 'Vivek': 0, 'Om': 0, 'Adi': 0}  
+
+
+#keys() values() items()
+d3={"Rohit":264,"vaibhav":175,"Hardik":150}
+a=d3.keys()
+print(type(a))
+print(a)
+
+b=d3.values()
+print(type(b))
+print(b)
+
+c=d3.items()
+print(type(c))
+print(c)
