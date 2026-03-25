@@ -63,3 +63,15 @@ print(d1["b"])
 # print(d1["e"]) #error
 print(d1.get("a"))
 print(d1.get("e")) #None
+
+
+#update the dictionary
+d2={"a":1,"b":4,"c":20}
+#method1
+d2.update(a=10,b=20)
+#method2
+d3={"e":30,"b":40}
+d2.update(d3)
+#method3
+d2["c"]=50
+print(d2)
