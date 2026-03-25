@@ -54,3 +54,12 @@ print(b)
 c=d3.items()
 print(type(c))
 print(c)
+
+
+#accessing the element
+d1={"a":1,"b":2,"c":3}
+print(d1["a"])
+print(d1["b"])
+# print(d1["e"]) #error
+print(d1.get("a"))
+print(d1.get("e")) #None
