@@ -41,3 +41,10 @@ print(t2) #(1, 2, [30, 20, 30, 40, 50])
 t2[2][1]=60
 print(t2) #(1, 2, [30, 60, 30, 40, 50])
 # t2[2]=[30,80] #error\
+
+#methods in tuple 
+t1=(1,2,3,7,4,5,6)
+t2=sorted(t1)
+print(t2)
+t3=reversed(t1)
+print(tuple(t3))
