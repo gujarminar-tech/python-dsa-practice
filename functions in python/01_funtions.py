@@ -22,3 +22,22 @@ def fun(*args): #it consider multiple input as one tuple
 fun(1,10.5,"Hello",[1,2,3])
 # (1, 10.5, 'Hello', [1, 2, 3])
 # <class 'tuple'>
+
+
+#keyword argument
+#order does not matter
+def employee_information(name,age,designation):
+    print("name:",name)
+    print("age:",age)
+    print("designation:",designation)
+
+employee_information(age=21,designation="student",name="Minar")
+
+#to pass any no. of keyword argument
+def fun(**keywordargument):
+    print(keywordargument)
+    print(type(keywordargument))
+
+fun(name="Ravi",age=26,salery=10000)
+# {'name': 'Ravi', 'age': 26, 'salery': 10000}
+# <class 'dict'>
