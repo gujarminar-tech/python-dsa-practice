@@ -86,4 +86,3 @@ fun2(4,c="hey",b=9)
 def fun3(a,b,/,c,*,d,e):
     print(a,b,c,d,e)
 fun3(3,5,c="G",d=[2,3],e=7)
-#
