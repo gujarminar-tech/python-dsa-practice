@@ -41,3 +41,17 @@ def fun(**keywordargument):
 fun(name="Ravi",age=26,salery=10000)
 # {'name': 'Ravi', 'age': 26, 'salery': 10000}
 # <class 'dict'>
+
+
+#default parameter
+def country_name(country="India"):
+    print(f"my country name is {country}")
+
+country_name() # my country name is India
+country_name("Russia") #my country name is Russia
+
+def number(a,b=1): #default arguments are comes after non derfault arg
+    print(a,b)
+
+number(1) #1 1 
+number(2,3)#2 3
