@@ -80,3 +80,10 @@ fun(a=3)
 def fun2(a,*,b,c): #both b,c are keyword only arg
     print(a,b,c)
 fun2(4,c="hey",b=9)
+
+
+#combining positinal only arg and keyword only arg
+def fun3(a,b,/,c,*,d,e):
+    print(a,b,c,d,e)
+fun3(3,5,c="G",d=[2,3],e=7)
+#
