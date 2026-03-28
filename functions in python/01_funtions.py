@@ -55,3 +55,17 @@ def number(a,b=1): #default arguments are comes after non derfault arg
 
 number(1) #1 1 
 number(2,3)#2 3
+
+#positional only argument
+def fun(a,/,b): #(a,/) a is only positional argument
+    print(a)
+    print(b)
+fun("hello",b=25)
+fun("Minar",21)
+
+def function(a,b,/,c): #both a,b are positional argument only
+    print(a)
+    print(b)
+    print(c)
+function(3,"Hello",c={3,4})
+function(23,"Minar",[4,5,6])
