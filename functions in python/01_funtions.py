@@ -69,3 +69,14 @@ def function(a,b,/,c): #both a,b are positional argument only
     print(c)
 function(3,"Hello",c={3,4})
 function(23,"Minar",[4,5,6])
+#function(c="minar",354,"Hey") #error postional arg. always first
+
+#keyword only argument
+def fun(*,a):
+    print(a)
+fun(a=3)
+#fun(5) #error
+
+def fun2(a,*,b,c): #both b,c are keyword only arg
+    print(a,b,c)
+fun2(4,c="hey",b=9)
