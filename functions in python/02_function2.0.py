@@ -54,3 +54,32 @@ def func():
     print(g)
 func()
 print(g)
+
+
+#Nested Function
+def outer():
+    a=10
+    b=30
+    def inner():
+        print(a,b) #inner func can access outer func variables
+    inner()
+
+outer()
+#inner() #only access inside outer functions
+
+def outerfunc():
+    x=5
+    def innerfunc():
+        print(x)
+    return innerfunc
+
+a=outerfunc() #a=innerfunc
+a() #a()=innerfunc()
+
+def multiplier(factor):
+    def multify_by(x):
+        return x*factor
+    return multify_by
+a=multiplier(2)
+print(a(6))
+
