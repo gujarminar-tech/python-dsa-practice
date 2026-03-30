@@ -83,3 +83,36 @@ def multiplier(factor):
 a=multiplier(2)
 print(a(6))
 
+
+#recursion function
+'''whenever the function calls itself,it is called recursion
+and the function is called recursive funtion'''
+
+def fun(n):
+    if n>0:
+        print(n)
+        fun(n-1)
+fun(10)
+
+def func(n):
+    if n>0:
+        print(n,end=" ")
+        func(n-1)
+        print(n,end=" ")
+        #5 4 3 2 1 1 2 3 4 5
+func(5)
+print()
+
+#sum upto nth integer
+def fun(n):
+    if n==1:
+        return 1
+    return n+fun(n-1)
+print(fun(5)) #15
+
+#factorier
+def fact(n):
+    if n==1 or n==0:
+        return 1
+    return n*fact(n-1)
+print(fact(4)) #24
