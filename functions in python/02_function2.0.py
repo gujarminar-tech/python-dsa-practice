@@ -116,3 +116,26 @@ def fact(n):
         return 1
     return n*fact(n-1)
 print(fact(4)) #24
+
+
+#types of recursion
+'''finite recursion vs infinite recursion
+head recursion vs tail recursion
+Direct recursion vs Indirect recursion'''
+
+def A(n):
+    if n>1:
+        print(n)
+        B(n-1)
+def B(n):
+    if n>1:
+        print(n)
+        A(n-1)
+A(6)
+
+#Fibonacci Sequence
+def func(n):
+    if n<=1:
+        return 1
+    return func(n-1)+func(n-2)
+print(func(6))
