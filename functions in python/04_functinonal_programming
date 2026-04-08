@@ -40,3 +40,20 @@ print(list(a)) #[60,70,80,90]
 
 b=filter(lambda x:x>50,lst)
 print(list(b))
+
+
+#map() method
+#syntax : map(function,iterable)
+lst1=[1,2,3]
+a =map(lambda x:x**2,lst1)
+print(list(a))
+
+l1=["Hello","world"]
+y=list(map(str.upper,l1))
+print(y)
+
+lst1=[1,2,3]
+lst2=[4,5,6]
+b=map(lambda x,y:x+y,lst1,lst2)
+print(list(b))
+
