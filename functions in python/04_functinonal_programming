@@ -25,3 +25,18 @@ None
 a= lambda x : lambda y : x+y
 c=a(7) #c=lambda y:7+y
 print(c(9))
+
+
+#filter() method
+#syntax : filter(function,iterable)
+lst=[10,20,30,40,50,60,70,80,90]
+def fun(n):
+    if n>50:
+        return True
+    else :
+        return False
+a=filter(fun,lst) #pass each element of list to funtion
+print(list(a)) #[60,70,80,90]
+
+b=filter(lambda x:x>50,lst)
+print(list(b))
