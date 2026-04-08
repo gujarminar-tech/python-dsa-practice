@@ -1,0 +1,27 @@
+#lambda function
+#labda is a keyword which is used to create ananymous funtion
+
+def fun(n):
+    return n**2
+
+a=lambda n:n**2
+print(fun(4))#16
+print(a(4))#16
+print(type(a))#<class 'funtion'>
+
+x=lambda a,b:a+b
+print(x(3,4))
+
+x=lambda : 10 #return 10
+y=lambda : print(10) #print 10 return none
+print(x()) #10
+print(y()) 
+'''
+10
+None
+'''
+
+#important question
+a= lambda x : lambda y : x+y
+c=a(7) #c=lambda y:7+y
+print(c(9))
