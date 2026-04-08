@@ -57,3 +57,31 @@ lst2=[4,5,6]
 b=map(lambda x,y:x+y,lst1,lst2)
 print(list(b))
 
+
+#reduce() method
+#syntax : reduce(function,iterable,initializer) 
+from functools import reduce
+
+a=reduce(lambda x,y:x+y,[1,2,3,4])
+print(a)
+
+lst=[1,2,3,4,5]
+a=reduce(lambda x,y:x+y,lst,1)
+'''
+step1: initializer + lst[1]=r1
+step2: r1 + lst[2]=r
+step3: r3 + ..
+...
+'''
+print(a)
+
+e=reduce(lambda x,y: x if x>y else y,[7,1,10,2,19,11])
+print(e) #19
+
+f=reduce(lambda x,y: x+y if y%2==0 else x,[1,2,3,4,5],0)
+print(f) #6
+
+
+b=reduce(lambda x,y:x+","+y,["Minar","Vivek","Nimish","Om"])
+print(b) #Minar,Vivek,Nimish,Om
+
