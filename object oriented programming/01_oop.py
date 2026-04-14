@@ -38,3 +38,37 @@ b1.deposit(500)
 b1.display() #1500
 b1.withdraw(200)
 b1.display() #1300
+
+
+#Inheritance
+'''
+when one class wants to inherit the properties or methods 
+of another class, it is called inheritance.
+'''
+class A:
+    def eat(self):
+        print("Eating")
+class B:
+    def sleep(self):
+        print("sleeping")
+
+obj1=A()
+obj2=B()
+
+obj1.eat() #Eating
+# obj2.eat() #error
+# obj1.sleep() #error
+
+class C:
+    def playing(self):
+        print("Football")
+class D(C):
+    def studing(self):
+        print("Maths")
+
+ob3=D()
+obj4=C()
+
+ob3.playing()
+# obj4.studing() #error
+#
