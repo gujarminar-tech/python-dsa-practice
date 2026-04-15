@@ -72,3 +72,55 @@ obj4=C()
 ob3.playing()
 # obj4.studing() #error
 #
+
+
+#types of inheritance
+'''
+simple 
+multiple
+multilevel
+hierarchical
+hybrid
+'''
+
+#simple inheritance
+class S1():
+    def fun1(self):
+        print("parent class")
+class S2(S1):
+    def fun2(self):
+        print("child class")
+a1=S2()
+a1.fun1() #parent class
+
+#multiple inheritance
+class MP1():
+    def funMP1(self):
+        print("Parent Class 1")
+class MP2():
+    def funMP2(self):
+        print("Parent Class 2")
+class MP3(MP1,MP2):
+    def funMP3(self):
+        print("Child class with 2 parents")
+
+obj5=MP3()
+obj5.funMP1()
+obj5.funMP2()
+obj5.funMP3()
+
+#multilevel Inheritance
+class ML1():
+    def funML1(self):
+        print("One")
+class ML2(ML1):
+    def funML2(self):
+        print("Two")
+class ML3(ML2):
+    def funML3(self):
+        print("Three")
+
+obj6=ML3()
+obj6.funML1() #One
+obj7=ML2()
+# obj7.funML3() #error
